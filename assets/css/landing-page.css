@@ -536,7 +536,7 @@ i {
 }
 
 .section {
-  padding: 30px 0;
+  padding: 0;
   position: relative;
   background-color: #ffffff;
 }
@@ -2059,5 +2059,12 @@ i {
 @media (min-width: 768px) {
   .landing-page .navbar-top {
     padding-top: 10px;
+  }
+}
+
+
+@media (max-width: 992px){
+  .landing-page .section .mainPar{
+    margin-bottom: 150px;
   }
 }
